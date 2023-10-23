@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table id="myTable">
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+        <th>Code</th>
+        <th>button</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+        <td>123456</td>
+        <td>
+          <button class="btn">post</button>
+          <button class="btn2" onclick="sendRequest(this)">Qparam</button>
+          <button class="btn3" onclick="deleteRow(this)">Delet</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+        <td>678910</td>
+        <td>
+          <button class="btn">post</button>
+          <button class="btn2" onclick="sendRequest(this)">Qparam</button>
+          <button class="btn3" onclick="deleteRow(this)">Delet</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Ernst Handel</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+        <td>852369</td>
+
+        <td>
+          <button class="btn">post</button>
+          <button class="btn2" onclick="sendRequest(this)">Qparam</button>
+          <button class="btn3" onclick="deleteRow(this)">Delet</button>
+        </td>
+      </tr>
+    </table>
+    <script src="my.js"></script>
+    <!-- -->
+  </body>
+</html>
